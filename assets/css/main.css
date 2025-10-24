@@ -2037,6 +2037,15 @@ input, select, textarea {
 
 /* Image */
 
+	.image.portfolio {
+		width:350px;
+		height:300px;
+		
+		/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+			object-fit:scale-up;
+		
+	}
+
 	.image {
 		border-radius: 0.35em;
 		border: 0;
